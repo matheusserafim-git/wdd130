@@ -10,10 +10,6 @@
     --heading-text-align: center;
     --heading-height: auto;
 }
-
-main{
-    max-width: 750px;
-}
 aside{
     width:20rem ;
     text-align: var(--heading-text-align);
@@ -29,17 +25,24 @@ aside h2{
 nav{
     background-color: var(--heading-background_color);
     padding:1px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
-    color: white;
+    color: #fff;
     display: block;
-    padding: 5px;
+    padding: 0.05rem;
+    text-decoration: none;
+    font-size:1.2rem;
+    font-weight: 700;
 
 }
 
 h1{
     color: var(--heading-background_color);
+    border: #eee;
 }
 
 main img{
@@ -70,4 +73,23 @@ footer{
     padding: 1rem ;
     background-color: #eee ;
     color: #333 ;
+}
+
+header, .grid, footer{
+    max-width:840px;
+    margin: 0 auto;
+}
+.grid{
+    display: grid;
+    align-items: center
+}
+main{
+    grid-column: 2/3;
+    margin: 1rem;
+}
+aside{
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
