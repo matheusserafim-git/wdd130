@@ -108,8 +108,17 @@ article{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     margin-left: 16px;
 }
-footer{
-    text-align: center;
+footer a{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 2px;
+    background-color: var(--primary-color);
+    color: #f0f0f0;
+    margin-top: 16px;
+}
+footer p{
+    display: flex;
+    flex-direction: row-reverse;
     padding: 2px;
     background-color: var(--primary-color);
     color: #f0f0f0;
