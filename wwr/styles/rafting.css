@@ -96,6 +96,17 @@ nav a:hover{
     text-align: center;
     border-radius: 10px;
 }
+section img {
+  display: block;
+  margin: 16px auto; 
+  border-radius: 8px; 
+}
+h2{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    margin: 16px 0;
+    text-align: center;
+}
 .history{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -107,28 +118,36 @@ nav a:hover{
     width: 100%;
     border-radius: 8px;
 }
-.section{
-    margin: 32px 0;
-    text-align: center;
+.history-block {
+  display: flex;
+  align-items: center;   
+  gap: 20px;             
+  margin: 20px 0;
 }
-.section h2{
-    margin-bottom: 16px;
+
+.history-block p {
+  flex: 1;               
 }
-.section figure{
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    flex-wrap: wrap;
-    flex: 1 1 150px;
+
+.history-block img {
+  width: 150px;
+  border-radius: 8px;
 }
-.section img{
-    width: 120px;
-    border-radius: 8px;
+
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 32px 0;
 }
-.section figcaption{
-    margin-top: 6px;
-    font-size: 0.9em;
+
+.gallery figure {
+  text-align: center;
+  max-width: 150px;
 }
+
 footer{
     display: flex;
     flex-direction: row;
