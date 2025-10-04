@@ -71,7 +71,7 @@ input[type="checkbox"] {
 }
 button{
     width: 5rem;
-    padding: .80rem;
+    padding: .50rem;
     border-bottom: 1px;
     background-color: navy;
     color: white ;
