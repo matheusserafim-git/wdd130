@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <div class="form-item column2"></div>
+                <legend>Contact Information</legend>
+                <label> Full name: <input type="text" id="fullname" name="fullname"></label>
+                </div>
+                <div class="form-item column2"></div>
+                <label>Email:<input type="email" name="useremail"></label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div class="form-item column1">
+                    <legend>Questions</legend>
+                    <label for="browser">What is your favorite browser?</label>
+                    <select id="browser" name="browser">
+                        <option value="chrome">Chrome</option>
+                        <option value="firefox">Firefox</option>
+                        <option value="safari">Safari</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-item column1">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet">
+                    <label for="feedback">List the places you have lived:</label>
+                    <textarea id="feedback" name="feedback" rows="4"
+                        placeholder="Belém, Canoas, Rio de Janeiro, São Gonçalo, Macaé"></textarea>
+                    <button type="submit">Submit Poll</button>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
