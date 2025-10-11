@@ -150,6 +150,13 @@ h2{
   flex-wrap: wrap;
   margin:  0;
 }
+.visually-hidden {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
 
 
 .gallery figure {
